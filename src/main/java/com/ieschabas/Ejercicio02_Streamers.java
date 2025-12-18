@@ -1,6 +1,6 @@
 package com.ieschabas;
 
-public class Streamers {
+public class Ejercicio02_Streamers {
     public static void main(String[] args) {
         String[] topStreamers = {"Tatoh", "TheViper", "Hera", "DauT"};
         System.out.println("El streamer en la posición 3 es: " + topStreamers[2]);

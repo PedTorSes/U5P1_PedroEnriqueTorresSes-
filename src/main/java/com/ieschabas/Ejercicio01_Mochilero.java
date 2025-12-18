@@ -5,7 +5,7 @@ package com.ieschabas;
  * @author Pedro Torres Sesé
  * @version 1.0
  */
-public class Mochilero {
+public class Ejercicio01_Mochilero {
     public static void main() {
         /**
          * Creamos array y establecemos sus valores

@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author Pedro Torres Sesé
  * @version 1.0
  */
-public class NotasModulo {
+public class Ejercicio03_NotasModulo {
     /**
      * Array con las notas de los alumnos
      * @param args

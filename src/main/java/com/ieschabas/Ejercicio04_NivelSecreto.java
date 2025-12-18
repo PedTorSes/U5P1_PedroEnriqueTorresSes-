@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author Pedro Torres Sesé
  * @version 1.0
  */
-public class NivelSecreto {
+public class Ejercicio04_NivelSecreto {
     public static void main(String[] args) {
         /**
          * Establecemos un array desordenado con los niveles que tenemos disponibles
