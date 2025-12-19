@@ -32,15 +32,23 @@ public class Ejercicio05_ElBugDeLaLista {
          */
         int j = 0;
         /**
-         *
+         * Recorremos el array orginal "tareasPendientes" y evitamos el índice que tiene el valor de "exclusión"
          */
 
         for (int i = 0; i < tareasPendientes.length; i++) {
             if (i != exclusion) {
+
+                /**
+                 * Establecemos los datos del array original en el nuevo array en la manera que aparecen
+                 */
                 tareasPendientesResultado[j] = tareasPendientes[i];
                 j++;
             }
         }
-        System.out.println("Array resultante: "+Arrays.toString(tareasPendientesResultado));
+
+        /**
+         * Mostramos el array final para ver si se ha eliminado el valor que ocupa la segunda posición
+         */
+        System.out.println("Array resultante: " + Arrays.toString(tareasPendientesResultado));
     }
 }
